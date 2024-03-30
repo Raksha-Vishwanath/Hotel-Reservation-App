@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.reserve.ReserveFragment"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/alatsi"
+                    android:text="Superior Double Room"
+                    android:textColor="@color/DarkBlue"
+                    android:textSize="25dp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="310dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/deluxeking"
+                    android:id="@+id/i1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bla1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="-48dp"
+                    android:layout_below="@id/i1"
+                    android:textSize="10sp"
+                    android:text="301 sq. ft  Beach View  King Bed  Complementary Breakfast"
+                    android:textColor="@color/DarkBlue"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bla2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/bla1"
+                    android:textSize="15sp"
+                    android:text="Price: Rs 10,545 (for two adults)"
+                    android:textColor="@color/DarkBlue"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bla2"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Book Now!"
+                    android:id="@+id/b1"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            android:layout_below="@id/card1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/white">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/DarkBlue"
+                    android:fontFamily="@font/alatsi"
+                    android:text="Dulex Double Room"
+                    android:textSize="25dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/t2"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="265dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/superiordoubleroom"
+                    android:id="@+id/i2"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bla3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="-42dp"
+                    android:layout_below="@id/i2"
+                    android:textSize="10sp"
+                    android:text="210 sq. ft  City View  Queen Bed  Complementary Breakfast"
+                    android:textColor="@color/DarkBlue"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bla4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/bla3"
+                    android:textSize="15sp"
+                    android:text="Price: Rs 7,965 (for two adults)"
+                    android:textColor="@color/DarkBlue"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bla4"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Book Now!"
+                    android:id="@+id/b2"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</ScrollView>
+
+<!--
+
+     Superior Double Room
+
+     Dulex Double Room
+
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="265dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/superiordoubleroom"
+        android:id="@+id/i2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/b2"
+        android:layout_marginTop="-55dp"
+        android:textSize="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/DarkBlue"
+        android:text="210 sq. ft    City View    Queen Bed    Free Breakfast" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Price: Rs 7,965 (for two adults)"
+        android:textSize="15dp"
+        android:layout_marginTop="-25dp"
+        android:textColor="@color/DarkBlue"
+        android:layout_alignTop="@+id/b2"
+        android:id="@+id/p2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Book Now!"
+        android:id="@+id/b2"
+        android:layout_below="@+id/i2"/>
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
+    </RelativeLayout>
+-->

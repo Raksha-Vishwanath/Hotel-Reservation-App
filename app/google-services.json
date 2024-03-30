@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "600568194178",
+    "project_id": "hotelapp-3fa8d",
+    "storage_bucket": "hotelapp-3fa8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600568194178:android:6e5becb8e9b878bf13c09b",
+        "android_client_info": {
+          "package_name": "com.example.myrak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4VQhslkfwuwOM9uYb5Mel0xPpRLbTvLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

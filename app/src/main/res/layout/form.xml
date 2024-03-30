@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!-- //FOR SUPERIOR DOUBLE ROOM -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/DarkBlue"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:src="@drawable/logo"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:text="Please Fill in the details below"
+        android:textSize="25dp"
+        android:textColor="@color/DarkBlue"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="20dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <EditText
+                android:id="@+id/e1"
+                android:layout_margin="10dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="First Name"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"/>
+            <EditText
+                android:id="@+id/e2"
+                android:layout_margin="10dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Last Name"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"/>
+            </LinearLayout>
+            <EditText
+                android:id="@+id/email"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email Address"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"/>
+            <EditText
+                android:id="@+id/phone"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="Phone Number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"/>
+
+            <Spinner
+                android:layout_margin="10dp"
+                android:id="@+id/roomTypeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/room_types"
+                android:textColor="#ff0000"
+                android:backgroundTint="@color/DarkBlue"
+                android:popupBackground="@color/white"
+                />
+
+            <EditText
+                android:layout_margin="10dp"
+                android:id="@+id/dateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/baseline_date_range_24"
+                android:hint="Select Check-in Date"
+                android:inputType="none"
+                android:onClick="showDatePickerDialog"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/numofroom"
+                android:layout_margin="10dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="No. of rooms"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"/>
+            <EditText
+                android:id="@+id/numofguest"
+                android:layout_margin="10dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:hint="No. of Guests"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"/>
+        </LinearLayout>
+            <Button
+                android:id="@+id/form_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Confirm Booking"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="*Please complete the payment at the hotel at the time of checkin or checkout"
+                android:textColor="#ff0000"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

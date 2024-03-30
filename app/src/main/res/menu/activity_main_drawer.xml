@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Home"
+            android:id="@+id/home"
+            android:icon="@drawable/baseline_bungalow_24"
+            android:tint="@color/DarkBlue"
+            android:textColor="@color/DarkBlue"/>
+        <item
+            android:title="About"
+            android:id="@+id/about"
+            android:icon="@drawable/baseline_brunch_dining_24"
+            android:tint="@color/DarkBlue"
+            android:textColor="@color/DarkBlue"/>
+        <item
+            android:title="Reserve a Room"
+            android:id="@+id/reserve"
+            android:icon="@drawable/outline_bed_24"
+            android:tint="@color/DarkBlue"
+            android:textColor="@color/DarkBlue"
+            />
+        <item
+            android:title="Reviews"
+            android:id="@+id/review"
+            android:icon="@drawable/outline_article_24"
+            android:tint="@color/DarkBlue"
+            android:textColor="@color/DarkBlue"/>
+        <item
+            android:title="Contact Us"
+            android:id="@+id/contact"
+            android:icon="@drawable/baseline_call_24"
+            android:tint="@color/DarkBlue"
+            android:textColor="@color/DarkBlue"/>
+    </group>
+</menu>

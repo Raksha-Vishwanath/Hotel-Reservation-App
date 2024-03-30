@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.contact.ContactFragment"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/text_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/amaranth"
+        android:layout_marginTop="16dp"
+        android:text="Reach Us At"
+        android:textColor="@color/DarkBlue"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="65dp"
+        android:text="Email: coastalretreat@gmail.com"
+        android:textColor="@color/DarkBlue"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="95dp"
+        android:textColor="@color/DarkBlue"
+        android:text="Phone: +91 8296603855"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="125dp"
+        android:textColor="@color/DarkBlue"
+        android:text="Address: Coastal Retreat Inn,12th    Main street, Port Blair, Andaman"
+        android:textSize="15dp"/>
+
+    <com.google.android.gms.maps.MapView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/add"
+        android:id="@+id/mapView"
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        android:clickable="true"/>
+
+
+</RelativeLayout>

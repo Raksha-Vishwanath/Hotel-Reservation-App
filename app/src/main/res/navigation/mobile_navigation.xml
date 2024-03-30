@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.myrak.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/about"
+        android:name="com.example.myrak.ui.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/reserve"
+        android:name="com.example.myrak.ui.reserve.ReserveFragment"
+        android:label="Reserve a Room"
+        tools:layout="@layout/fragment_reserve" />
+
+    <fragment
+        android:id="@+id/review"
+        android:name="com.example.myrak.ui.review.ReviewFragment"
+        android:label="Review"
+        tools:layout="@layout/fragment_review" />
+
+    <fragment
+        android:id="@+id/contact"
+        android:name="com.example.myrak.ui.contact.ContactFragment"
+        android:label="Contact"
+        tools:layout="@layout/fragment_contact" />
+</navigation>

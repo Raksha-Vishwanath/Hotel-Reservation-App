@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/DarkBlue"
+            >
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/logo"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <!-- BOOKING DETAILS -->
+        <TextView
+            android:id="@+id/text1"
+            android:layout_marginTop="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Booking Details: "
+            android:textColor="@color/DarkBlue"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/DarkBlue"
+            android:layout_below="@id/text1"/>
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/DarkBlue"
+            android:layout_below="@id/text2"/>
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/DarkBlue"
+            android:layout_below="@id/text3"/>
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/star"
+                    android:layout_below="@id/text4"
+                    android:layout_centerHorizontal="true"
+                    />
+
+
+    <!-- BOOKING CONFIRMATION -->
+        <TextView
+            android:id="@+id/bookingtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Booking Confirmed!"
+            android:textSize="25sp"
+            android:textColor="@color/DarkBlue"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/img"/>
+        <TextView
+            android:id="@+id/textViewAdditionalInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We are pleased to inform you that your reservation is confirmed. Thank you for choosing Costal Retreat Inn!"
+            android:textSize="18sp"
+            android:layout_below="@id/bookingtext"
+            android:textColor="@color/DarkBlue"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:id="@+id/recive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You will receive an email confirmation shortly. For any queries please contact the hotel"
+            android:textColor="#b59410"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/textViewAdditionalInfo"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recive"
+            android:layout_margin="20dp"
+            android:id="@+id/btn_rtn"
+            android:text="Return to Home Page"
+            />
+        </RelativeLayout>
+        </ScrollView>
+</RelativeLayout>
