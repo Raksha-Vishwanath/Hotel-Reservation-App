@@ -28,25 +28,24 @@ The contact us page which provides the hotel's contact information along with an
 
 Reserve room page which lets the user book one of the two available room types
 
-![Screenshot_2024-02-13-00-16-52-59](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/7187e8b2-03e0-41ef-8105-44fc05ee77cb)
+![Screenshot_2024-02-13-00-16-52-59](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/0c43901c-c42e-490b-9f4a-8ebd2477166d)
 
 
 In order to book a room a user must first login. The entered data is compared with the database and the user is either allowed or denied access.
 
-![Screenshot_2024-02-13-00-17-24-51_5e756a4c96626e1f9ddde083d9837113](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/3424bc88-870c-45e4-b74a-756db60826ed)
+![Screenshot_2024-02-13-00-17-24-51_5e756a4c96626e1f9ddde083d9837113](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/bafa5b42-dc40-4573-8438-11435911d9cb)
 
 
 If a user does not have an account they can first sign up. The credentials are then stored into the database. In each of these steps the form is validated in case of blank spaces or mismatched passwords and is indicated with appropriate messages
 
-![Screenshot_2024-02-13-00-17-29-82_5e756a4c96626e1f9ddde083d9837113](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/c1d140a3-d4fe-49f7-b535-4f1232c6b897)
+![Screenshot_2024-02-13-00-17-29-82_5e756a4c96626e1f9ddde083d9837113](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/9a6ca1be-8bb9-43fc-b319-5f91bdec7a6e)
 
 
 The user must then fill a form which again is validated and stored into the database
 
-![Screenshot_2024-02-13-01-05-32-04_5e756a4c96626e1f9ddde083d9837113](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/96ec3287-17ee-4fd6-bf47-8339aacae893)
+![Screenshot_2024-02-13-01-05-32-04_5e756a4c96626e1f9ddde083d9837113](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/c3729923-b893-4f38-a167-41c0ae129849)
 
 
 If the room for that given checkin date is available the booking is confirmed 
 
-![Screenshot_2024-02-13-00-23-46-02_5e756a4c96626e1f9ddde083d9837113](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/2967493f-2f6b-4b07-9860-e78ca0d949b3)
-
+![Screenshot_2024-02-13-00-23-46-02_5e756a4c96626e1f9ddde083d9837113](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/f42d5e5c-d13d-49c3-8264-2d95253bc603)
