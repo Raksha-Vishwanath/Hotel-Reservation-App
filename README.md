@@ -3,27 +3,27 @@ Costal Retreat Inn is an android application that uses Kotlin for it's functiona
 
 Home Page: has a slide show of images and a list of services the hotel offers
 
-![Screenshot_2024-02-13-00-15-59-38](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/a2891940-697e-480e-b15f-dc5cf2aab706)
+![Screenshot_2024-02-13-00-15-59-38](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/9ebd8406-2fc0-4a18-a805-0d907dea6f67)
 
 
 A navigation drawer to navigate to various pages of the application
 
-![Screenshot_2024-02-13-00-16-18-14_5e756a4c96626e1f9ddde083d9837113](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/807b01f0-0105-4120-b546-d7f4d31b5888)
+![Screenshot_2024-02-13-00-16-18-14_5e756a4c96626e1f9ddde083d9837113](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/84b616c6-5a3b-4849-a978-4e6be1f00638)
 
 
 The about page which has a decription about the hotel and provides links to their social media platforms
 
-![Screenshot_2024-02-13-00-16-41-85](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/33b2dba1-d058-449e-a527-3c46c2b9ec6c)
+![Screenshot_2024-02-13-00-16-41-85](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/0ac10b4b-8a5e-41bc-8804-04bdc0fc7bf7)
 
 
 Feedback page where the users can give a star rating along with a description which gets stored in the firebase database
 
-![Screenshot_2024-02-13-00-17-03-28_5e756a4c96626e1f9ddde083d9837113](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/ea843b31-d556-4f01-b385-244bf9c691a6)
+![Screenshot_2024-02-13-00-17-03-28_5e756a4c96626e1f9ddde083d9837113](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/9db0876d-5483-4f76-a2d9-c5b8a8cdc4fe)
 
 
 The contact us page which provides the hotel's contact information along with an integrated real time map which helps users navigate to the hotel from their location
 
-![Screenshot_2024-02-13-00-17-12-06_5e756a4c96626e1f9ddde083d9837113](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/91567167-4119-408a-a002-44d2c3006466)
+![Screenshot_2024-02-13-00-17-12-06_5e756a4c96626e1f9ddde083d9837113](https://github.com/Raksha-Vishwanath/Hotel-Reservation-App/assets/111189940/18e59bec-3c1d-4586-b448-8f1c5e686a5c)
 
 
 Reserve room page which lets the user book one of the two available room types
